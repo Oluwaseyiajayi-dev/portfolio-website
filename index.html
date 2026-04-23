@@ -30,6 +30,11 @@
                 list-style: none;
             }
 
+            nav a {
+                color: white;
+                text-decoration: none;
+            }
+
             nav ul li {
                 margin-left: 20px;
                 cursor: pointer;
@@ -141,48 +146,54 @@
         <nav>
             <h2>Oluwaseyi</h2>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
-        <section class="hero">
-            <h1>I build clean and responsive website</h1>
+        <section id="home" class="hero">
+            <h1>Hi, I'm Oluwaseyi</h1>
             <p>I help individual and small businesses create a strong online presence.</p>
-            <a href="mailto:Oluwaseyiajayi2022@gmail.com"> <button>Contact Me</button> </a>
+            <p><strong>Available for freelance projects and collaborations.</strong></p>
+            <a href="mailto:Oluwaseyiajayi2022@gmail.com"> <button>Hire Me</button> </a>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
             <h2>About me</h2>
             <p>I am a web developer focused on building clean, responsive and user-friendly
                 websites. I am currently improving my my skills and taking on small projects
                 to gain real world experience.
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
             </p>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2>My Projects</h2>
 
        <div class="projects-container">
             <div class="project">
              <h3>Counter App</h3>
-                <p>A simple interactive counter built with javaScript.</p>
+                <p>A responsive counter application built with javascript,
+                    demonstrating DOM manipulaton and user interaction.
+                </p>
             </div>
 
             <div class="project">
                 <h3>Personal website</h3>
-                <p>A clean and responsive personal website layout.</p>
+                <p>A clean and responsive personal portfolio website built using HTML,CSS and javascript.</p>
             </div>
 
             <div class="project">
                 <h3>Landing page Design</h3>
-                <p>A modern landing page built using HTML and CSS.</p>
+                <p>A modern landing page layout designed with a focus
+                 on user experience and visual structure.</p>
             </div>
         </div>
         </section>
 
-        <section class="contact">
+        <section id="contact" class="contact">
             <h2>Contact me</h2>
             <p>If you have a project or opportunity,feel free to reach out.</p>
 
@@ -192,6 +203,7 @@
                 <textarea placeholder="Your Message".></textarea>
                 <button type="submit">Send Messge</button>
             </form>
+            <p>Or reach me on whatsApp:</p><a href="https://wa.me/2347041107427">Chat on WhatsApp</a>
         </section>
 
         <footer>
